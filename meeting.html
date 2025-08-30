@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Request a meeting</h1>
+
+    <form action="/Submit-Request" , method="POST">
+        <label for="student_name">Your Name:</label>
+        <input type="text" id="student_name" name="student_name" required> <br>
+
+        <label for="student_id">Your ID:</label>
+            <input type="number" id="student_id" name="student_id" required>
+
+        <label for="teacher_name">Teachers:</label>
+            <select type="text" id="teacher_name" name="teacher_name" required>
+                <option disabled selected>Select teacher name</option>
+                <option>Mr.Karki</option>
+                <option>Mr.Joshi</option>
+                <option>Mr.yadav</option>
+                <option>Mr.Shah</option>
+            </select>
+
+        <label for="topic">Topic of meeting:</label>
+        <input type="text" , id="topic" , name="topic">
+
+        <label for="textarea">Text area:</label>
+        <textarea id="textarea" , name="textarea" , optional , row="5"></textarea>
+
+        <button type="submit">Submit-Request</button>
+
+
+    </form>
+    
+</body>
+</html>

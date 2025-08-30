@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portal</title>
+    <link rel="stylesheet" href="{{url_for('static' , filename='css/style.css')}}">
+</head>
+<body>
+    <h1>welcome {{name}} to Students Portal</h1>
+
+    <a href="exam_form" target="_main"> <img src = "{{url_for('static' , filename='images/examform.png')}}" alt="exam"> </a>
+
+    <a href="meeting" target="_main"> <img src = "{{url_for('static' , filename='images/meeting.png')}}" alt="meeting"></a>
+    
+</body>
+</html>
